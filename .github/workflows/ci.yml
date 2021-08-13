@@ -6,11 +6,11 @@ jobs:
   name: Compile and run
   runs-on: ubuntu-latest
   steps:
-  
+
    - uses: actions/checkout@v2
 
    - name: make
-     run:  make all
+     run: make all
 
    - name: run
      run: make run
