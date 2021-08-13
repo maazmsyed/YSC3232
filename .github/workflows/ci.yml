@@ -6,7 +6,7 @@ jobs:
   name: Compile and run
   runs-on: ubuntu-latest
   steps:
-
+  
    - uses: actions/checkout@v2
 
    - name: make
